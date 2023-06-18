@@ -1,0 +1,581 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito Sans';
+}
+a{
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.926);
+}
+.header h1{
+    color: rgb(230, 120, 0);
+    padding: 20px 100px 20px 100px;
+    font-size: 1.4em;
+}
+.header a{
+    color: rgba(255, 255, 255, 0.63);
+    padding: 20px;
+    font-size: 1em;
+}
+.header a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.header ul{
+    padding: 20px 0px 20px 260px;
+}
+.section1 {
+    background: url(assets/cover_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding: 200px 0px 200px 0px;
+}
+.section1 h5{
+    font-weight: 300;
+    color: white;
+    font-size: 5em;
+    padding: 10px;
+}
+.section1 h1{
+    color: white;
+    font-size: 5em;
+    padding-bottom: 40px;
+}
+.left{
+    background-color: rgb(230, 120, 0);
+    color: white;
+    padding: 15px 25px 15px 25px;
+}
+.left:hover{
+    box-shadow: 0px 0px 15px grey;
+    transition: 0.5s;
+}
+.right{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 25px 15px 25px;
+}
+.right:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.section2{
+    background-color: rgba(0, 0, 0, 0.933);
+    padding: 10px;
+}
+.section2 h3{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1em;
+    padding: 30px 0px 40px 0px;
+}
+.sec2div1 {
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.sec2div1 h1{
+    color: white;
+    font-size: 1.5em;
+}
+.sec2div1 h2{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1em;
+}
+.fa-solid{
+    color: rgb(230, 120, 0);
+    font-size: 70px;
+    padding: 20px;
+}
+.fa-regular{
+    color: rgb(230, 120, 0);
+    font-size: 70px;
+    padding: 20px;
+}
+.sec2div2{
+    display: flex;
+    padding: 40px;
+}
+.sec2div3 {
+    padding: 20px 40px 20px 10px;
+}
+.section3 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.sec3div1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.sec3div1 h1{
+    font-weight: 300;
+    font-size: 3em;
+    color: white;
+    padding: 10px;
+}
+.sec3div1 p{
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+}
+.sec3div2{
+    margin: 10px 100px 0px 100px;
+}
+.sec3div3{
+    display: flex;
+    justify-content: center;
+}
+.section3 img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+.sec3div4{
+    background-color: rgba(0, 0, 0, 0.684);
+    width: 300px;
+}
+.sec3div4 h1{
+    color: white;
+    padding: 20px 0px 20px 20px;
+    font-size: 1.3em;
+}
+.sec3div4 p{
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.63);
+}
+.sec3div4 a{
+    color: white;
+    padding:20px ;
+}
+.sec3div4:hover{
+    background-color: rgb(230, 120, 0);
+    transition: 0.5s;
+}
+.section4{
+    display: flex;
+    background-color:  rgba(0, 0, 0, 0.9);
+    padding: 100px 50px 50px 50px;
+}
+.section4 img{
+    width: 600px;
+}
+.sec4div1 h1{
+    font-weight: 300;
+    font-size: 4em;
+    padding: 0px 80px 30px 80px;
+    color: white;
+}
+.sec4div1 p{
+    font-size: 1em;
+    padding: 0px 80px 10px 80px;
+    color: rgba(255, 255, 255, 0.63);
+}
+.sec4div1 i{
+    font-size: 1em;
+    color: rgb(0, 141, 0);
+}
+.sec4div1 h2{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1em;
+    padding: 0px 80px 2px 60px;
+}
+.sec4div1 button{
+    background-color: transparent;
+    border: 1px solid rgb(230, 120, 0);
+    margin:10px 80px 10px 80px;
+    padding: 15px;
+    color: rgb(230, 120, 0);
+}
+.sec4div1 button:hover{
+    background-color: rgb(230, 120, 0);
+    color: white;
+    transition: 0.5s;
+}
+.section5{
+    background-color: rgba(0, 0, 0, 0.885);
+}
+.sec5div1{
+    display: flex;
+    justify-content: center;
+}
+.sec5div1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 80px 0px 80px 40px;
+}
+.sec5div2 {
+    background-color: rgba(128, 128, 128, 0.211);
+    padding: 15px;
+    margin: 80px 40px 80px 40px;
+    border-radius: 5px;
+    width: 400px;
+}
+.sec5div2 h5{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1em;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.sec5div2 p{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1em;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.sec5div2 span{
+    color: rgb(230, 120, 0);
+}
+.section6 video{
+    width: 600px;
+}
+.section6 {
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.9);
+    padding: 100px 50px 50px 50px;
+}
+.sec6div1{
+    width: 600px;
+    padding: 0px 80px 50px 50px;
+}
+.sec6div1 h2{
+    font-weight: 300;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.63);
+    padding-bottom: 20px;
+}
+.sec6div1 span{
+    font-weight: 1000;
+    color: white;
+}
+.sec6div1 p{
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.63);
+}
+.sec6div1 p1{
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.63);
+}
+.section7 {
+    background-color: rgb(230, 120, 0);
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    padding: 40px;
+}
+.section7 p{
+    color: black;
+}
+.section8{
+    background-color:  rgba(0, 0, 0, 0.9);
+}
+.sec8div1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.sec8div2{
+    margin: 0px 80px 0px 80px;
+}
+.sec8div2 h1{
+    color: white;
+    padding: 20px 0px 20px 0px;
+}
+.sec8div2 p{
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.63);
+}
+.sec8div3{
+    color: rgba(255, 255, 255, 0.63);
+    padding: 80px 0px 80px 0px;
+}
+.sec8div3 div{
+    padding: 10px;
+}
+.footer{
+    background-color:  rgba(0, 0, 0, 0.9);
+    text-align: center;
+    font-size: 0.5em;
+    padding: 50px; 
+    color: rgba(255, 255, 255, 0.63);  
+}
+.footer span{
+    color: rgb(0, 174, 255);
+}
+.section1first {
+    background: url(assets/company_cover_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding: 200px 0px 200px 0px;
+}
+.section1first span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section1first h5{
+    font-weight: 300;
+    color: white;
+    font-size: 5em;
+    padding-right: 20px;
+}
+.section1first h1{
+    color: white;
+    font-size: 5em;
+    padding-bottom: 20px;
+}
+.section2first{
+    background-color:  rgba(0, 0, 0, 0.9);
+}
+.section2first h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding: 60px;
+    font-weight: 500;
+}
+.sec2div1first {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.sec2div2first{
+    width: 1000px;
+    padding: 40px;
+}
+.sec2div2first img{
+    width: 250px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.sec2div2first i{
+    color: rgb(230, 120, 0);
+    padding: 15px 5px 5px 5px;
+}
+.sec2div2first h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.sec2div2first p{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1.3em;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+.sec2div2first p1{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1em;
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+.sec2div3first {
+    display: flex;
+    justify-content: center;
+}
+.sec2div4first{
+    padding: 10px;
+}
+.sec2div4first img{
+    padding-bottom: 10px;
+    width: 200px;
+}
+.sec2div4first p{
+    color: rgba(255, 255, 255, 0.63);
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 80px;
+}
+.section3first{
+    background-color: rgba(0, 0, 0, 0.926);
+}
+.section3first h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding: 60px;
+    font-weight: 500;
+}
+.sec3div1first{
+    justify-content: center;
+    display: flex;
+    padding: 20px 0px 80px 0px;
+}
+.sec3div2first {
+    width: 400px;
+    padding: 20px;
+}
+.sec3div2first h2{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.sec3div2first p{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.section1service {
+    background-color:  rgba(0, 0, 0, 0.9);
+}
+.sec1div1service {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+.sec1div1service img{
+    width: 600px;
+}
+.sec1div2service{
+    display: flex;
+    padding: 20px;
+}
+.sec1div3service {
+    background-color: rgba(128, 128, 128, 0.211);
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    box-shadow: 0px 0px 15px black;
+}
+.sec1div3service i{
+    font-size: 4em;
+}
+.sec1div3service h1{
+    color: white;
+    font-size: 1.5em;
+}
+.sec1div3service p{
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+.section1coming{
+    background-color: rgba(0, 0, 0, 0.926);
+    text-align: center;
+    padding: 180px;
+}
+.section1coming h3{
+    font-size: 1em;
+    color: white;
+    text-shadow: 0px 0px 10px aqua;
+}
+.section1coming h1{
+    font-size: 5em;
+    color: white;
+    text-shadow: 0px 0px 10px aqua;
+}
+.section1contact {
+    background-color: rgba(0, 0, 0, 0.926);
+}
+.sec1div1contact {
+    display: flex;
+    justify-content: center;
+}
+.sec1div2contact {
+    background-color: rgba(128, 128, 128, 0.211);
+    width: 1200px;
+    height: 400px;
+    margin: 60px;
+    padding: 40px 20px 40px 20px;
+}
+.sec1div2contact label{
+    font-size: 1em;
+    color: white;
+    font-weight: 200px;
+}
+.sec1div2contact input{
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 200px;
+    padding: 5px 400px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+.message{
+    height: 150px;
+    justify-content: flex-start;
+}
+.sec1div2contact button{
+    background-color: rgb(230, 120, 0);
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 120, 0);
+}
+.sec1div2contacts {
+    width: 800px;
+    height: 400px;
+    margin: 30px;
+    padding: 40px 20px 40px 20px;
+}
+.sec1div3contact {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.211);
+}
+.sec1div3contact h1{
+    color: white;
+    padding-bottom: 10px;
+}
+.sec1div3contact p{
+    color: rgba(255, 255, 255, 0.63);
+}
+.section1request{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 60px 60px 60px;  
+}
+.section1request h1{
+    padding-left: 60px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 2em;
+}
+.sec1div1request {
+    background-color: rgba(128, 128, 128, 0.211);
+    padding: 20px;
+    width: 1000px;
+    margin-left: 60px;
+}
+.sec1div1request label{
+    font-size: 1em;
+    color: white;
+    font-weight: 200px;
+}
+.sec1div1request input{
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 200px;
+    padding: 5px 800px 5px 10px;
+    margin: 15px 0px 15px 0px;
+}
+.sec1div1request button{
+    background-color: rgb(230, 120, 0);
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 120, 0);
+}
